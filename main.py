@@ -1,9 +1,15 @@
-# This program calculates your age in the year 2050.
-# Input:  None
-# Output: Your current age followed by your age in 2050
 
-# Create your variables here
+# Declare variables
+# DECLARE current_age AS INTEGER
+#DECLARE current_year AS INTEGER
+#DECLARE future_age AS INTEGER
 
-myNewAge = myCurrentAge + (2050 - currentYear)
-print("My Current Age is " + str(myCurrentAge))
-print("I will be " + str(myNewAge) + " in 2050.")
+#Assign values to current_age and current_year
+current_age = 40        # Example current age
+current_year = 2024     # Example current year
+
+#Calculate future age in 2050
+future_age = current_age + (2050 - current_year)
+
+# Print the future age
+print("Your age in 2050 will be: ", future_age)
